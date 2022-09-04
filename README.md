@@ -6,6 +6,4 @@ A system to manage a student house:
 - tracking expanses
 - control and scheduling of cleaning tasks
 
-
 > Licensed under MIT
-
