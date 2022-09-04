@@ -8,3 +8,4 @@ A system to manage a student house:
 
 
 > Licensed under MIT
+
