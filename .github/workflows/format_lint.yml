@@ -1,4 +1,4 @@
-name: Check Format and Lint
+name: Lint and Style
 
 on: [push]
 
