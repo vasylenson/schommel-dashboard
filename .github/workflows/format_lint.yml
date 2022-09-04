@@ -3,19 +3,19 @@ name: Check Format and Lint
 on: [push]
 
 jobs:
-  eslint:
+  next-lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Install dependencies
-        run: yarn
+        run: npm install
       - name: Run ESLint
-        run: yarn lint:eslint
+        run: npm run lint:next
   prettier:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Install dependencies
-        run: yarn
+        run: npm install
       - name: Run ESLint
-        run: yarn lint:prettier
+        run: npm run lint:prettier
